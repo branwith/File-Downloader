@@ -10,7 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4285F4;
+  background: #3e176c;
 }
 .wrapper{
   max-width: 500px;
@@ -38,7 +38,7 @@ form input{
   padding: 0 17px;
   font-size: 19px;
   border-radius: 5px;
-  border: 1px solid #b3b2b2;
+  border: 1px solid ##3e176c;
   transition: 0.1s ease;
 }
 form input::placeholder{
@@ -59,7 +59,7 @@ form button{
   padding: 15px 0;
   border-radius: 5px;
   pointer-events: none;
-  background: #4285F4;
+  background: #3e176c;
   transition: opacity 0.15s ease;
 }
 form input:valid ~ button{
